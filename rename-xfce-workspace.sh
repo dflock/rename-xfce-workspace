@@ -113,7 +113,7 @@ fi
 
 # Get new workspace name via zenity
 new_name=$(zenity --entry --title="Rename workspace" \
-    --text="Rename workspace $((current_ws_idx + 1))" --entry-text="${ws_names[$curnt_ws_idx]}")
+    --text="Rename workspace $((current_ws_idx + 1))" --entry-text="${ws_names[$current_ws_idx]}")
 
 # Overwrite current workspace name
 xfconf_cmd="xfconf-query -c xfwm4 -p /general/workspace_names"
