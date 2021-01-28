@@ -4,6 +4,8 @@ Rename the current Xfce workspace.
 
 It takes no arguments, instead it opens a dialog box.
 
+image::./screenshot.png[Screenshot of the rename dialog]
+
 ## Requirements
 
 You need `wmctrl` & `zenity` installed. See: https://www.freedesktop.org/wiki/Software/wmctrl/ & 
